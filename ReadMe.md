@@ -19,6 +19,11 @@ test.yaml无作用，就是一个简单的占位置的东西
 编译：
 
     该咋编译咋编译
+    git add.
+    git commit -m "xxx"
+    git push origin main
+
+
 
 发行版：
 

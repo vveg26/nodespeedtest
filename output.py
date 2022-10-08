@@ -18,7 +18,7 @@ def output(list,num):
         proxy = list[index]['Link']
         output_list.append(proxy)
     content = base64.b64encode('\n'.join(output_list).encode('utf-8')).decode('ascii')
-    with open('./Eternity', 'w+', encoding='utf-8') as f:
+    with open('./sub/v2', 'w+', encoding='utf-8') as f:
         f.write(content)
         print('Write Success!')
         f.close()
@@ -29,8 +29,8 @@ def main():
         os.remove(out_json)
     cmd = 'lite.exe --config ./lite_config.json --test ./other/veg.yaml'
     os.system(cmd)
-    output(read_json(out_json),50)
+    output(read_json(out_json),66)
 
 if __name__ == '__main__':
-    #schedule.every().day.at("10:30").do(main)
+    #schedule.every().day.at("21:00").do(main)
     main()
