@@ -1,0 +1,1 @@
+lite.exe --config ./lite_config.json --test test.yaml
