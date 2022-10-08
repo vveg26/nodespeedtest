@@ -2,7 +2,7 @@
 
 修改lite_config.json中的参数即可
 
-subscription：修改为自己的订阅链接即可
+subscription：修改为自己的订阅链接即可，要是base64订阅链接，就是v2ray通用链接
 
 testmode: 多线程进行，2为两个线程
 
