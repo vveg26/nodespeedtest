@@ -10,7 +10,7 @@ testmode: 多线程进行，2为两个线程
 
 ## btw
 
-运行命令：lite.exe --config ./lite_config.json --test test.yaml
+运行命令：lite.exe --config ./lite_config.json --test ./other/veg.yaml
 
 test.yaml无作用，就是一个简单的占位置的东西
 
@@ -22,4 +22,4 @@ test.yaml无作用，就是一个简单的占位置的东西
 
 发行版：
 
-    直接点击ouput.exe即可，生成的E开头的无后缀的东西就是订阅了
+    直接点击ouput.exe即可，生成的v2的无后缀的东西就是订阅了
