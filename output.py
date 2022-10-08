@@ -27,9 +27,9 @@ def output(list,num):
 def main():
     if(os.path.exists(out_json)):
         os.remove(out_json)
-    cmd = 'lite.exe --config ./lite_config.json --test test.yaml'
+    cmd = 'lite.exe --config ./lite_config.json --test ./other/veg.yaml'
     os.system(cmd)
-    output(read_json(out_json),99)
+    output(read_json(out_json),50)
 
 if __name__ == '__main__':
     #schedule.every().day.at("10:30").do(main)
